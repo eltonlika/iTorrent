@@ -104,8 +104,6 @@
 		7CAFB54022DA442C00A4B666 /* ThemedUISplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAFB53F22DA442C00A4B666 /* ThemedUISplitViewController.swift */; };
 		7CB175FA2454F144005CEEA6 /* ObjC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CB175F92454F143005CEEA6 /* ObjC.m */; };
 		7CB1769324564289005CEEA6 /* FileManagerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB1769224564289005CEEA6 /* FileManagerExtensions.swift */; };
-		7CB39E74244A502400FA3E20 /* PatreonWebServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB39E73244A502400FA3E20 /* PatreonWebServer.swift */; };
-		7CB3A5072418034100CE44A2 /* FullscreenAd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB3A5062418034100CE44A2 /* FullscreenAd.swift */; };
 		7CB60F3D249F9D3400F4D20B /* KeyboardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB60F3C249F9D3400F4D20B /* KeyboardHelper.swift */; };
 		7CB60F3F249FFD0200F4D20B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB60F3E249FFD0200F4D20B /* StringExtension.swift */; };
 		7CB8083220AADA8300F76931 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB8083120AADA8300F76931 /* Utils.swift */; };
@@ -168,12 +166,6 @@
 		7CF522E820AEF3DB00D319E6 /* FileInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF522E720AEF3DB00D319E6 /* FileInfo.swift */; };
 		7CF522EC20AF78B100D319E6 /* BackgroundTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF522EB20AF78B100D319E6 /* BackgroundTask.swift */; };
 		7CF522EE20AF7B0300D319E6 /* 3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7CF522ED20AF7B0200D319E6 /* 3.wav */; };
-		7CF75F1D244B42EE00F5C089 /* Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F18244B42ED00F5C089 /* Campaign.swift */; };
-		7CF75F1E244B42EE00F5C089 /* Patron.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F19244B42ED00F5C089 /* Patron.swift */; };
-		7CF75F1F244B42EE00F5C089 /* Benefit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F1A244B42ED00F5C089 /* Benefit.swift */; };
-		7CF75F20244B42EE00F5C089 /* Tier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F1B244B42ED00F5C089 /* Tier.swift */; };
-		7CF75F21244B42EE00F5C089 /* PatreonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F1C244B42ED00F5C089 /* PatreonAPI.swift */; };
-		7CF75F24244B43CE00F5C089 /* PatreonAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F23244B43CE00F5C089 /* PatreonAccount.swift */; };
 		7CF75F29244BB97300F5C089 /* PatreonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF75F28244BB97300F5C089 /* PatreonViewController.swift */; };
 		7CFB6E9223F8914D00F5D210 /* SANavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFB6E9123F8914D00F5D210 /* SANavigationController.swift */; };
 		7CFDDCC9235B9F110008EBEA /* SegueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFDDCC8235B9F110008EBEA /* SegueCell.xib */; };
@@ -307,8 +299,6 @@
 		7CB175FC2454F2CF005CEEA6 /* iTorrent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iTorrent-Bridging-Header.h"; sourceTree = "<group>"; };
 		7CB1768F2454FEBB005CEEA6 /* Pods_iTorrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_iTorrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CB1769224564289005CEEA6 /* FileManagerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtensions.swift; sourceTree = "<group>"; };
-		7CB39E73244A502400FA3E20 /* PatreonWebServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatreonWebServer.swift; sourceTree = "<group>"; };
-		7CB3A5062418034100CE44A2 /* FullscreenAd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenAd.swift; sourceTree = "<group>"; };
 		7CB60F3C249F9D3400F4D20B /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
 		7CB60F3E249FFD0200F4D20B /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		7CB8083120AADA8300F76931 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -372,12 +362,6 @@
 		7CF522E720AEF3DB00D319E6 /* FileInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileInfo.swift; sourceTree = "<group>"; };
 		7CF522EB20AF78B100D319E6 /* BackgroundTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundTask.swift; sourceTree = "<group>"; };
 		7CF522ED20AF7B0200D319E6 /* 3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = 3.wav; sourceTree = "<group>"; };
-		7CF75F18244B42ED00F5C089 /* Campaign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Campaign.swift; sourceTree = "<group>"; };
-		7CF75F19244B42ED00F5C089 /* Patron.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Patron.swift; sourceTree = "<group>"; };
-		7CF75F1A244B42ED00F5C089 /* Benefit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Benefit.swift; sourceTree = "<group>"; };
-		7CF75F1B244B42ED00F5C089 /* Tier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tier.swift; sourceTree = "<group>"; };
-		7CF75F1C244B42ED00F5C089 /* PatreonAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatreonAPI.swift; sourceTree = "<group>"; };
-		7CF75F23244B43CE00F5C089 /* PatreonAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatreonAccount.swift; sourceTree = "<group>"; };
 		7CF75F28244BB97300F5C089 /* PatreonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatreonViewController.swift; sourceTree = "<group>"; };
 		7CFB6E9123F8914D00F5D210 /* SANavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SANavigationController.swift; sourceTree = "<group>"; };
 		7CFDDCC8235B9F110008EBEA /* SegueCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegueCell.xib; sourceTree = "<group>"; };
@@ -749,20 +733,6 @@
 			path = Native;
 			sourceTree = "<group>";
 		};
-		7CB39E72244A500A00FA3E20 /* Patreon */ = {
-			isa = PBXGroup;
-			children = (
-				7CF75F22244B438B00F5C089 /* Model */,
-				7CF75F1A244B42ED00F5C089 /* Benefit.swift */,
-				7CF75F18244B42ED00F5C089 /* Campaign.swift */,
-				7CF75F1C244B42ED00F5C089 /* PatreonAPI.swift */,
-				7CF75F19244B42ED00F5C089 /* Patron.swift */,
-				7CF75F1B244B42ED00F5C089 /* Tier.swift */,
-				7CB39E73244A502400FA3E20 /* PatreonWebServer.swift */,
-			);
-			path = Patreon;
-			sourceTree = "<group>";
-		};
 		7CB60F3B249F9CE900F4D20B /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
@@ -780,7 +750,6 @@
 				7CF522E220AE05F200D319E6 /* UserManagerSettings.swift */,
 				7CF522EB20AF78B100D319E6 /* BackgroundTask.swift */,
 				7CBC7765231961C20075A685 /* UserPreferences.swift */,
-				7CB3A5062418034100CE44A2 /* FullscreenAd.swift */,
 			);
 			path = System;
 			sourceTree = "<group>";
@@ -955,7 +924,6 @@
 				7C46748024883F3100ABC838 /* Mvvm */,
 				7CAF077C2485917C00AAB4FB /* DiffableDataSource */,
 				7CB175F82454F0FB005CEEA6 /* Native */,
-				7CB39E72244A500A00FA3E20 /* Patreon */,
 				7CBEFA5E240D68BA00FEEA05 /* Extentions */,
 				7CB8083120AADA8300F76931 /* Utils.swift */,
 				7C97E4F92433F321004923D8 /* UpdatableModel.swift */,
@@ -971,14 +939,6 @@
 				7C60114725472FC500A0EFC5 /* Cache.swift */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		7CF75F22244B438B00F5C089 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				7CF75F23244B43CE00F5C089 /* PatreonAccount.swift */,
-			);
-			path = Model;
 			sourceTree = "<group>";
 		};
 		7CF75F2A244CB47200F5C089 /* Patreon */ = {
@@ -1246,9 +1206,7 @@
 				7CCD02C924389A4F00B1669F /* DiffCalculator.swift in Sources */,
 				7CB175FA2454F144005CEEA6 /* ObjC.m in Sources */,
 				7CCD02CB2439F2C600B1669F /* TorrentListController+SearchView.swift in Sources */,
-				7CB39E74244A502400FA3E20 /* PatreonWebServer.swift in Sources */,
 				7CB8083220AADA8300F76931 /* Utils.swift in Sources */,
-				7CF75F24244B43CE00F5C089 /* PatreonAccount.swift in Sources */,
 				7C26E35224327F740012D455 /* Core+TorrentBackup.swift in Sources */,
 				7C80257520A9B17C00673A4F /* TorrentCell.swift in Sources */,
 				7CF522EC20AF78B100D319E6 /* BackgroundTask.swift in Sources */,
@@ -1258,7 +1216,6 @@
 				7C49598A2437C2E300FF3BB2 /* Core+RemoveTorrent.swift in Sources */,
 				7CE61CB12426B75B0038717C /* UIColorExtentions.swift in Sources */,
 				7CBEFA60240D68DC00FEEA05 /* UILabelExtentions.swift in Sources */,
-				7CF75F21244B42EE00F5C089 /* PatreonAPI.swift in Sources */,
 				7CDD30FA24DC7355000C38F6 /* UIFontExtensions.swift in Sources */,
 				7CB1769324564289005CEEA6 /* FileManagerExtensions.swift in Sources */,
 				7C99E365237B3CB900FB66F0 /* TextFieldCell.swift in Sources */,
@@ -1310,12 +1267,9 @@
 				7CD71421248BFFCE00A24E98 /* RssModel.swift in Sources */,
 				7CBB17DF2324FE650043A9F6 /* CircularAnimation.swift in Sources */,
 				7C4B109D20DFF12300440E74 /* ThemedUIViewController.swift in Sources */,
-				7CF75F1E244B42EE00F5C089 /* Patron.swift in Sources */,
 				7C1682C224A8F7F200B04169 /* PeerCell.swift in Sources */,
-				7CB3A5072418034100CE44A2 /* FullscreenAd.swift in Sources */,
 				7CCD02D5243CD2A300B1669F /* TorrentListController+AdsView.swift in Sources */,
 				7CCD02D3243B849600B1669F /* TorrentListController+EditMode.swift in Sources */,
-				7CF75F20244B42EE00F5C089 /* Tier.swift in Sources */,
 				7C802D07212C6D060031C19F /* Dialog.swift in Sources */,
 				7CB8083B20AB008700F76931 /* SwitchCell.swift in Sources */,
 				7CE35526248D2F3A007C9685 /* RssFeedProvider.swift in Sources */,
@@ -1334,7 +1288,6 @@
 				7CD71428248C150400A24E98 /* RssItemCell.swift in Sources */,
 				7C80F74B24338F9B005C4050 /* FolderCell.swift in Sources */,
 				7C26E359243340B40012D455 /* TorrentFilesController.swift in Sources */,
-				7CF75F1D244B42EE00F5C089 /* Campaign.swift in Sources */,
 				7C7D0ABA20D911EB001B08E5 /* SortingPreferencesController.swift in Sources */,
 				7C18DF05231D52E500A14326 /* SegueCell.swift in Sources */,
 				7C6189B12433478E00B4EF5B /* FileProviderTableDataSource.swift in Sources */,
@@ -1357,7 +1310,6 @@
 				7C495527244E4B3B0057648A /* UIViewExtensions.swift in Sources */,
 				7C4B71D324D5DC5C00DA0C49 /* SettingsPackExtension.swift in Sources */,
 				7C18DF07231D5DDB00A14326 /* PreferenceCellProtocol.swift in Sources */,
-				7CF75F1F244B42EE00F5C089 /* Benefit.swift in Sources */,
 				7C1EBD0421E4B64B00EAAF55 /* TableHeaderView.swift in Sources */,
 				7C60114825472FC500A0EFC5 /* Cache.swift in Sources */,
 				7C97E4FF2434E76A004923D8 /* SAViewControllers.swift in Sources */,
@@ -1541,12 +1493,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iTorrent/iTorrent.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21.0;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = D5UQ7XT49T;
+				DEVELOPMENT_TEAM = BYHGYKQST9;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1577,9 +1529,9 @@
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent;
+				PRODUCT_BUNDLE_IDENTIFIER = al.nonamedude.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iTorrent/Utils/Native/iTorrent-Bridging-Header.h";
@@ -1599,11 +1551,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = iTorrent/iTorrent.entitlements;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 21.0;
-				DEVELOPMENT_TEAM = D5UQ7XT49T;
+				DEVELOPMENT_TEAM = BYHGYKQST9;
 				ENABLE_BITCODE = NO;
 				EXCLUDED_ARCHS = "";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -1633,9 +1585,9 @@
 				MARKETING_VERSION = "1.8.4-dev.3";
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "$(inherited)";
-				PRODUCT_BUNDLE_IDENTIFIER = ru.nonamedude.iTorrent;
+				PRODUCT_BUNDLE_IDENTIFIER = al.nonamedude.iTorrent;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = Wildcard;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/iTorrent/Utils/Native/iTorrent-Bridging-Header.h";
